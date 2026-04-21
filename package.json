@@ -48,11 +48,12 @@
     "test": "node --test tests/*.test.mjs"
   },
   "dependencies": {
-    "@mariozechner/pi-coding-agent": "^0.58.4",
+    "@mariozechner/pi-coding-agent": "^0.68.0",
+    "@mariozechner/pi-tui": "^0.68.0",
     "@sinclair/typebox": "^0.34.38",
+    "@xterm/headless": "^5.5.0",
     "node-pty": "^1.0.0",
-    "strip-ansi": "^7.1.0",
-    "@xterm/headless": "^5.5.0"
+    "strip-ansi": "^7.1.0"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
